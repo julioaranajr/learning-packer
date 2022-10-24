@@ -11,26 +11,26 @@ Installing Packer
 Homebrew is a free and open-source package management system for Mac OS X. 
 Install the official Packer formula from the terminal.
 First, install the HashiCorp tap, a repository of all our Homebrew packages.
-''sh
+'''sh
 brew tap hashicorp/tap
-''
+'''
 
 Now, install Packer with hashicorp/tap/packer 
-''sh
+'''sh
 brew install hashicorp/tap/packer
-''
+'''
 
 To update to the latest, run
-''sh
+'''sh
 brew upgrade hashicorp/tap/packer
-''
+'''
 
 Verifying the Installation
 After installing Packer, verify the installation worked by opening a new 
 command prompt or console, and checking that packer is available:
-''sh
+'''sh
 packer --version
-''
+'''
 
 If you get an error that packer could not be found, then your PATH environment variable was not set up properly. 
 Please go back and ensure that your PATH variable contains the directory which has Packer installed.
