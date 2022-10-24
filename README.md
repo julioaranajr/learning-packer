@@ -1,34 +1,38 @@
 # Working with Packer
 
-Building (AWS AMI) Using Packer
+## Building (AWS AMI) Using Packer
 
-Getting Started with AWS
+## Getting Started with AWS
 HashiCorp Packer automates the creation of any type of machine image, including AWS AMIs. 
 You'll build an Ubuntu machine image on AWS in this labs.
 
-Installing Packer
+## Installing Packer
 
 Homebrew is a free and open-source package management system for Mac OS X. 
 Install the official Packer formula from the terminal.
+
 First, install the HashiCorp tap, a repository of all our Homebrew packages.
 
-``bash
+```bash
 brew tap hashicorp/tap
-``
+```
 
 Now, install Packer with hashicorp/tap/packer 
-`` bash
+
+``` bash
 brew install hashicorp/tap/packer
-``
+```
 
 To update to the latest, run
-``bash
-brew upgrade hashicorp/tap/packer
-``
 
-Verifying the Installation
+```bash
+brew upgrade hashicorp/tap/packer
+```
+
+## Verifying the Installation
 After installing Packer, verify the installation worked by opening a new 
 command prompt or console, and checking that packer is available:
+
 ``bash
 packer --version
 ``
